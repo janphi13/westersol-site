@@ -1,0 +1,28 @@
+DirectoryIndex index.html
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Old preview paths
+  RewriteRule ^fr\.html$ /fr/ [R=301,L]
+  RewriteRule ^index\.html$ / [R=301,L]
+  RewriteRule ^privacy-nl\.html$ /nl/privacy.html [R=301,L]
+  RewriteRule ^privacy-fr\.html$ /fr/privacy.html [R=301,L]
+
+  # Trailing slash for language folders
+  RewriteRule ^(nl|fr|en)$ /$1/ [R=301,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+<IfModule mod_mime.c>
+  AddType application/javascript js
+  AddType image/svg+xml svg
+  AddDefaultCharset UTF-8
+</IfModule>

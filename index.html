@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Westersol</title>
+  <meta name="description" content="A guide for buyers looking for a home on the western Costa del Sol. Choose Dutch, French or English.">
+  <link rel="canonical" href="https://westersol.com/">
+  <link rel="alternate" hreflang="nl" href="https://westersol.com/nl/">
+  <link rel="alternate" hreflang="fr" href="https://westersol.com/fr/">
+  <link rel="alternate" hreflang="en" href="https://westersol.com/en/">
+  <link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      var lang = (navigator.language || navigator.userLanguage || "nl").toLowerCase();
+      var code = lang.slice(0, 2);
+      if (code !== "nl" && code !== "fr" && code !== "en") {
+        code = "nl";
+      }
+      window.location.replace("/" + code + "/");
+    })();
+  </script>
+</head>
+<body>
+  <noscript>
+    <p><a href="/choose.html">Choose your language / Kies uw taal / Choisissez votre langue</a></p>
+  </noscript>
+</body>
+</html>
