@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://westersol.com/nl/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/fr/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/nl/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://westersol.com/fr/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://westersol.com/en/privacy.html</loc>
+  </url>
+</urlset>
