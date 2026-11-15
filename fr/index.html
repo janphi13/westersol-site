@@ -20,12 +20,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css">
-  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="../img/logo/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="../img/logo/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="../img/logo/icon-192.png">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="./">Wester<span>sol</span></a>
+      <a class="logo" href="./"><img src="../img/logo/wordmark.svg" width="312" height="110" alt="Westersol"></a>
       <nav>
         <a class="hide-sm" href="#guide">Guide d'achat</a>
         <a class="hide-sm" href="#fonctionnement">Fonctionnement</a>
@@ -51,37 +53,29 @@
             <a class="btn btn-ghost" href="#guide">Lire le guide d'achat</a>
           </div>
         </div>
-        <div class="hero-art">
-<svg viewBox="0 0 800 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Costa del Sol occidentale, collines et mer, sans personnes">
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e7f3f2"/>
-      <stop offset="55%" stop-color="#8ec4c0"/>
-      <stop offset="100%" stop-color="#2f7d86"/>
-    </linearGradient>
-    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#4aa0a8"/>
-      <stop offset="55%" stop-color="#1d6d76"/>
-      <stop offset="100%" stop-color="#123f48"/>
-    </linearGradient>
-  </defs>
-  <rect width="800" height="560" fill="url(#sky)"/>
-  <circle cx="620" cy="120" r="58" fill="#f3d39a" opacity="0.95"/>
-  <path d="M0 310 C120 280 180 250 280 255 C370 260 420 230 520 240 C620 250 690 220 800 235 L800 360 L0 360 Z" fill="#6d8a6a"/>
-  <path d="M0 340 C140 310 220 300 330 312 C450 326 530 290 650 305 C720 314 760 300 800 308 L800 390 L0 390 Z" fill="#4f6f55"/>
-  <g fill="#f4efe6">
-    <rect x="148" y="268" width="22" height="28"/>
-    <rect x="172" y="258" width="18" height="38"/>
-    <rect x="192" y="272" width="16" height="24"/>
-    <polygon points="148,268 159,252 170,268" fill="#c45c26"/>
-    <polygon points="172,258 181,244 190,258" fill="#c45c26"/>
-  </g>
-  <path d="M0 370 C180 350 300 380 480 355 C620 335 720 360 800 345 L800 560 L0 560 Z" fill="url(#sea)"/>
-  <path d="M0 430 C200 415 340 445 500 420 C640 400 730 430 800 418" fill="none" stroke="#d9efe8" stroke-width="3" opacity="0.45"/>
-  <path d="M0 470 C160 455 300 485 470 460 C630 438 740 470 800 455" fill="none" stroke="#d9efe8" stroke-width="2" opacity="0.28"/>
-  <path d="M0 508 C120 520 280 500 800 528 L800 560 L0 560 Z" fill="#e8d7b8"/>
-</svg>
-</div>
+                <div class="hero-art">
+          <img src="../img/map/coast-map.webp" width="1152" height="864" alt="Carte illustrée de la Costa del Sol occidentale, vue de la mer vers l’intérieur, avec Sotogrande, La Duquesa, Sabinillas, Manilva, Casares, Estepona et San Pedro">
+          <svg class="map-labels" viewBox="0 0 1152 864" role="presentation" aria-hidden="true">
+            <circle cx="430" cy="705" r="7"/>
+            <text x="455" y="648" text-anchor="middle" dominant-baseline="middle">Sotogrande</text>
+            <circle cx="555" cy="575" r="7"/>
+            <text x="495" y="555" text-anchor="end" dominant-baseline="middle">La Duquesa</text>
+            <circle cx="655" cy="528" r="7"/>
+            <text x="640" y="505" text-anchor="middle" dominant-baseline="middle">Sabinillas</text>
+            <circle cx="530" cy="468" r="7"/>
+            <text x="530" y="445" text-anchor="middle" dominant-baseline="middle">Manilva</text>
+            <circle cx="700" cy="310" r="7"/>
+            <text x="800" y="258" text-anchor="middle" dominant-baseline="middle">Casares</text>
+            <circle cx="715" cy="500" r="7"/>
+            <text x="715" y="428" text-anchor="middle" dominant-baseline="middle">Estepona</text>
+            <circle cx="905" cy="415" r="7"/>
+            <text x="915" y="388" text-anchor="middle" dominant-baseline="middle">San Pedro</text>
+            <circle class="faint" cx="1015" cy="300" r="4.5"/>
+            <text class="faint" x="1055" y="225" text-anchor="middle" dominant-baseline="middle">Marbella</text>
+            <circle class="faint" cx="530" cy="198" r="4.5"/>
+            <text class="faint" x="530" y="158" text-anchor="middle" dominant-baseline="middle">Ronda</text>
+          </svg>
+        </div>
       </div>
     </section>
 
@@ -95,7 +89,7 @@
           <article class="card">
             <div class="kicker">La zone</div>
             <h3>De la promenade aux terrains de polo</h3>
-            <p><strong>San Pedro de Alcántara</strong> a une longue promenade le long de la plage et un centre qui reste un village, avec Guadalmina juste à côté. <strong>Estepona</strong>, c'est la vieille ville, le port et, derrière, la Sierra Bermeja. <strong>Casares</strong> est accroché à la colline, un village blanc, avec le golf et la mer en bas. <strong>Manilva et Sabinillas</strong> sont des villes de tous les jours, avec une digue. <strong>La Duquesa</strong> s'organise autour de sa marina. <strong>Sotogrande</strong>, ce sont le polo, le golf, le port et les domaines fermés, avec Alcaidesa à côté.</p>
+            <p>Les sept localités, de la promenade aux terrains de polo, sont présentées ci-dessous. Chacune a une courte description et un aperçu de ce qui est à vendre maintenant.</p>
           </article>
           <article class="card">
             <div class="kicker">Les coûts</div>
@@ -108,39 +102,203 @@
             <p>D'abord le NIE et un avocat qui travaille pour vous, pas pour le vendeur. Ensuite la réservation, le contrat d'arras, les vérifications et l'escritura chez le notaire. Un achat prend souvent plusieurs mois. C'est pourquoi nous demandons votre délai : dans les douze mois, ou plus tard.</p>
           </article>
         </div>
-        <div class="town-strip" aria-label="Localités entre San Pedro de Alcántara et Sotogrande">
-          <figure class="town-card">
-            <img src="../img/towns/san-pedro.webp" width="1200" height="800" alt="La promenade et les palmiers de San Pedro de Alcántara" loading="lazy">
+        <div class="life-strip" aria-hidden="false">
+          <figure class="life-card">
+            <img src="../img/life/san-pedro-beach.webp" width="1200" height="800" alt="La plage et la mer à San Pedro de Alcántara" loading="lazy">
             <figcaption>San Pedro de Alcántara</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/estepona.webp" width="1200" height="800" alt="Le port de plaisance d'Estepona" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/estepona-promenade.webp" width="1200" height="900" alt="La promenade en bord de mer à Estepona" loading="lazy">
             <figcaption>Estepona</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/casares.webp" width="1200" height="800" alt="Le village blanc de Casares sur la colline" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/estepona-oldtown.webp" width="1200" height="653" alt="Une rue fleurie dans le vieux quartier d'Estepona" loading="lazy">
+            <figcaption>Estepona</figcaption>
+          </figure>
+          <figure class="life-card">
+            <img src="../img/life/casares-village.webp" width="1200" height="800" alt="Le village blanc de Casares et la Sierra Crestellina" loading="lazy">
             <figcaption>Casares</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/manilva.webp" width="1200" height="800" alt="Quartiers résidentiels dans les collines de Manilva, au matin" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/casares-street.webp" width="1200" height="800" alt="Une rue en escalier dans le village blanc de Casares" loading="lazy">
+            <figcaption>Casares</figcaption>
+          </figure>
+          <figure class="life-card">
+            <img src="../img/life/estepona-market.webp" width="1200" height="900" alt="Les halles du marché à Estepona" loading="lazy">
+            <figcaption>Estepona</figcaption>
+          </figure>
+          <figure class="life-card">
+            <img src="../img/life/manilva-beach.webp" width="1200" height="900" alt="Rochers sur la plage de Playa de las Arenas, à Manilva" loading="lazy">
             <figcaption>Manilva</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/sabinillas.webp" width="1200" height="800" alt="Un bateau de pêche sur la plage de San Luis de Sabinillas, avec les montagnes au loin" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/sabinillas-promenade.webp" width="1200" height="900" alt="La promenade en bord de mer à San Luis de Sabinillas" loading="lazy">
             <figcaption>Sabinillas</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/la-duquesa.webp" width="1200" height="800" alt="Le port de plaisance de La Duquesa" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/la-duquesa-castle.webp" width="1200" height="900" alt="Le château de La Duquesa sur la côte" loading="lazy">
             <figcaption>La Duquesa</figcaption>
           </figure>
-          <figure class="town-card">
-            <img src="../img/towns/sotogrande.webp" width="1200" height="800" alt="Le port de plaisance de Sotogrande" loading="lazy">
+          <figure class="life-card">
+            <img src="../img/life/sotogrande-golf.webp" width="1200" height="900" alt="Un parcours de golf près de Sotogrande, avec la mer au loin" loading="lazy">
             <figcaption>Sotogrande</figcaption>
           </figure>
         </div>
       </div>
     </section>
 
+
+    <section id="for-sale">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Ce qui est à vendre maintenant</h2>
+          <p>Un aperçu des logements à vendre dans chacune des sept localités, d'après Idealista le 15 novembre 2026. Ce ne sont pas des annonces sur ce site.</p>
+        </div>
+        <div class="sale-list">
+        <article class="sale-town" id="sale-san-pedro">
+          <figure>
+            <img src="../img/towns/san-pedro.webp" width="1200" height="800" alt="La promenade et les palmiers de San Pedro de Alcántara" loading="lazy">
+            <figcaption>San Pedro de Alcántara</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>San Pedro de Alcántara</h3>
+            <p class="sale-blurb">San Pedro de Alcántara a une longue promenade le long de la plage et un centre qui reste un village, avec Guadalmina juste à côté.</p>
+            <p class="sale-count">1 079 logements à vendre (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 395 000 euros et 1 395 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · San Pedro Pueblo</span><span class="home-specs"><span>2 chambres</span><span>94 m²</span><span class="home-price">395 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · Guadalmina Alta</span><span class="home-specs"><span>3 chambres</span><span>188 m²</span><span class="home-price">650 000 euros</span></span></li>
+              <li><span class="home-lead">Duplex · San Pedro Pueblo</span><span class="home-specs"><span>3 chambres</span><span>149 m²</span><span class="home-price">765 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · Guadalmina Baja</span><span class="home-specs"><span>3 chambres</span><span>252 m²</span><span class="home-price">675 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · Guadalmina Alta</span><span class="home-specs"><span>4 chambres</span><span>230 m²</span><span class="home-price">1 395 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-estepona">
+          <figure>
+            <img src="../img/towns/estepona.webp" width="1200" height="800" alt="Le port de plaisance d'Estepona" loading="lazy">
+            <figcaption>Estepona</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>Estepona</h3>
+            <p class="sale-blurb">Estepona, c'est la vieille ville, le port et, derrière, la Sierra Bermeja.</p>
+            <p class="sale-count">5 580 logements à vendre (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 269 000 euros et 1 395 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · Estepona</span><span class="home-specs"><span>2 chambres</span><span>89 m²</span><span class="home-price">269 000 euros</span></span></li>
+              <li><span class="home-lead">Duplex · Estepona</span><span class="home-specs"><span>3 chambres</span><span>117 m²</span><span class="home-price">430 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · centre d'Estepona</span><span class="home-specs"><span>2 chambres</span><span>93 m²</span><span class="home-price">625 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · centre d'Estepona</span><span class="home-specs"><span>3 chambres</span><span>135 m²</span><span class="home-price">897 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · Estepona</span><span class="home-specs"><span>4 chambres</span><span>316 m²</span><span class="home-price">1 395 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-casares">
+          <figure>
+            <img src="../img/towns/casares.webp" width="1200" height="800" alt="Le village blanc de Casares sur la colline" loading="lazy">
+            <figcaption>Casares</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>Casares</h3>
+            <p class="sale-blurb">Casares est accroché à la colline, un village blanc, avec le golf et la mer en bas.</p>
+            <p class="sale-count">809 logements à vendre (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 330 000 euros et 775 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · côte de Casares</span><span class="home-specs"><span>2 chambres</span><span>125 m²</span><span class="home-price">330 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · côte de Casares</span><span class="home-specs"><span>2 chambres</span><span>128 m²</span><span class="home-price">350 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · côte de Casares</span><span class="home-specs"><span>2 chambres</span><span>110 m²</span><span class="home-price">349 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · côte de Casares</span><span class="home-specs"><span>3 chambres</span><span>228 m²</span><span class="home-price">480 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · près du village de Casares</span><span class="home-specs"><span>4 chambres</span><span>220 m²</span><span class="home-price">775 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-manilva">
+          <figure>
+            <img src="../img/towns/manilva.webp" width="1200" height="800" alt="Quartiers résidentiels dans les collines de Manilva, au matin" loading="lazy">
+            <figcaption>Manilva</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>Manilva</h3>
+            <p class="sale-blurb">Manilva est une ville de tous les jours, avec une digue.</p>
+            <p class="sale-count">98 logements à vendre dans le bourg même, et non dans toute la commune (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 250 000 euros et 750 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · Manilva</span><span class="home-specs"><span>3 chambres</span><span>108 m²</span><span class="home-price">270 000 euros</span></span></li>
+              <li><span class="home-lead">Duplex · Manilva</span><span class="home-specs"><span>2 chambres</span><span>107 m²</span><span class="home-price">250 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · Manilva</span><span class="home-specs"><span>3 chambres</span><span>157 m²</span><span class="home-price">329 950 euros</span></span></li>
+              <li><span class="home-lead">Villa · Manilva</span><span class="home-specs"><span>2 chambres</span><span>110 m²</span><span class="home-price">265 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · près de Manilva</span><span class="home-specs"><span>4 chambres</span><span>295 m²</span><span class="home-price">750 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-sabinillas">
+          <figure>
+            <img src="../img/towns/sabinillas.webp" width="1200" height="800" alt="Un bateau de pêche sur la plage de San Luis de Sabinillas, avec les montagnes au loin" loading="lazy">
+            <figcaption>Sabinillas</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>Sabinillas</h3>
+            <p class="sale-blurb">Sabinillas est une ville de tous les jours, avec une digue.</p>
+            <p class="sale-count">149 logements à vendre (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 220 000 euros et 1 100 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · Sabinillas</span><span class="home-specs"><span>2 chambres</span><span>61 m²</span><span class="home-price">220 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · Sabinillas</span><span class="home-specs"><span>4 chambres</span><span>100 m²</span><span class="home-price">250 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · San Luis de Sabinillas</span><span class="home-specs"><span>2 chambres</span><span>112 m²</span><span class="home-price">295 000 euros</span></span></li>
+              <li><span class="home-lead">Penthouse · Sabinillas</span><span class="home-specs"><span>3 chambres</span><span>220 m²</span><span class="home-price">524 500 euros</span></span></li>
+              <li><span class="home-lead">Villa · San Luis de Sabinillas</span><span class="home-specs"><span>3 chambres</span><span>290 m²</span><span class="home-price">1 100 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-la-duquesa">
+          <figure>
+            <img src="../img/towns/la-duquesa.webp" width="1200" height="800" alt="Le port de plaisance de La Duquesa" loading="lazy">
+            <figcaption>La Duquesa</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>La Duquesa</h3>
+            <p class="sale-blurb">La Duquesa s'organise autour de sa marina.</p>
+            <p class="sale-count">235 logements à vendre à La Duquesa et Puerto de la Duquesa, au total (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 275 000 euros et 699 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Appartement · Puerto de la Duquesa</span><span class="home-specs"><span>2 chambres</span><span>104 m²</span><span class="home-price">275 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · La Duquesa</span><span class="home-specs"><span>2 chambres</span><span>109 m²</span><span class="home-price">287 000 euros</span></span></li>
+              <li><span class="home-lead">Duplex · La Duquesa</span><span class="home-specs"><span>3 chambres</span><span>100 m²</span><span class="home-price">299 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · La Duquesa</span><span class="home-specs"><span>3 chambres</span><span>97 m²</span><span class="home-price">339 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · La Duquesa</span><span class="home-specs"><span>3 chambres</span><span>187 m²</span><span class="home-price">699 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        <article class="sale-town" id="sale-sotogrande">
+          <figure>
+            <img src="../img/towns/sotogrande.webp" width="1200" height="800" alt="Le port de plaisance de Sotogrande" loading="lazy">
+            <figcaption>Sotogrande</figcaption>
+          </figure>
+          <div class="sale-body">
+            <h3>Sotogrande</h3>
+            <p class="sale-blurb">Sotogrande, ce sont le polo, le golf, le port et les domaines fermés, avec Alcaidesa à côté.</p>
+            <p class="sale-count">879 logements à vendre (Idealista, 15 novembre 2026).</p>
+            <p class="sale-range">Les exemples de ce jour-là se situaient entre 279 000 euros et 1 350 000 euros.</p>
+                        <ul class="sale-examples">
+              <li><span class="home-lead">Maison mitoyenne · Guadiaro, près de Sotogrande</span><span class="home-specs"><span>3 chambres</span><span>111 m²</span><span class="home-price">279 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · Sotogrande</span><span class="home-specs"><span>3 chambres</span><span>175 m²</span><span class="home-price">495 000 euros</span></span></li>
+              <li><span class="home-lead">Appartement · Sotogrande</span><span class="home-specs"><span>3 chambres</span><span>186 m²</span><span class="home-price">575 000 euros</span></span></li>
+              <li><span class="home-lead">Maison mitoyenne · Sotogrande</span><span class="home-specs"><span>3 chambres</span><span>280 m²</span><span class="home-price">699 000 euros</span></span></li>
+              <li><span class="home-lead">Villa · Sotogrande Costa</span><span class="home-specs"><span>5 chambres</span><span>444 m²</span><span class="home-price">1 350 000 euros</span></span></li>
+            </ul>
+            <p class="sale-cta"><a class="btn btn-ghost" href="#admission">Dites-nous ce que vous cherchez</a></p>
+          </div>
+        </article>
+        </div>
+        <p class="sale-note">Indicatif, d'après les annonces publiques du 15 nov. 2026.</p>
+      </div>
+    </section>
 
     <section id="building">
       <div class="wrap">
@@ -149,17 +307,23 @@
           <p>Voici des exemples du type de logements neufs que l'on trouve entre San Pedro de Alcántara et Sotogrande. Ce ne sont pas des annonces. Westersol n'a aucun partenariat avec un projet, et ne vend pas de logements sur plan.</p>
         </div>
         <div class="build-grid">
-          <article class="card">
+          <article class="card has-photo">
+            <img src="../img/life/san-pedro-beach.webp" width="1200" height="800" alt="La plage de San Pedro de Alcántara" loading="lazy">
+
             <div class="kicker">San Pedro de Alcántara</div>
             <h3>Près de la promenade</h3>
             <p>De nouveaux immeubles d'appartements à quelques minutes à pied de la promenade et de la plage, près du centre.</p>
           </article>
-          <article class="card">
+          <article class="card has-photo">
+            <img src="../img/life/estepona-beach.webp" width="1200" height="800" alt="La plage de la Rada à Estepona" loading="lazy">
+
             <div class="kicker">Estepona</div>
             <h3>La New Golden Mile</h3>
             <p>Des appartements en première et en seconde ligne, sur le littoral entre San Pedro et le centre d'Estepona.</p>
           </article>
-          <article class="card">
+          <article class="card has-photo">
+            <img src="../img/life/estepona-hills.webp" width="1200" height="900" alt="Les collines de la Sierra Bermeja derrière Estepona" loading="lazy">
+
             <div class="kicker">Estepona</div>
             <h3>Dans les collines</h3>
             <p>Des maisons mitoyennes et des villas au-dessus de la ville, souvent avec vue sur la mer et sur la Sierra Bermeja.</p>
@@ -169,12 +333,16 @@
             <h3>Autour du golf</h3>
             <p>Des appartements près des golfs de la côte de Casares, y compris autour de Finca Cortesin.</p>
           </article>
-          <article class="card">
+          <article class="card has-photo">
+            <img src="../img/life/la-duquesa-marina.webp" width="1200" height="900" alt="Le port de plaisance de La Duquesa" loading="lazy">
+
             <div class="kicker">La Duquesa</div>
             <h3>Du côté de la marina</h3>
             <p>Des logements avec vue sur le port, et de nouveaux appartements à quelques minutes de la marina.</p>
           </article>
-          <article class="card">
+          <article class="card has-photo">
+            <img src="../img/life/sotogrande-canal.webp" width="1200" height="675" alt="Un canal et des bateaux dans le port de Sotogrande" loading="lazy">
+
             <div class="kicker">Sotogrande</div>
             <h3>Villas et appartements</h3>
             <p>Des villas et des appartements neufs dans les domaines, près du golf, des terrains de polo et de la marina.</p>
@@ -183,6 +351,11 @@
         <p class="build-note">Après l'admission, l'agence partenaire peut vous montrer les projets réellement en vente à ce moment-là.</p>
       </div>
     </section>
+
+    <figure class="scene-break">
+      <img src="../img/life/estepona-mountains.webp" width="1200" height="800" alt="Les montagnes de la Sierra Bermeja derrière Estepona" loading="lazy">
+      <figcaption>Sierra Bermeja</figcaption>
+    </figure>
 
     <section class="steps" id="fonctionnement">
       <div class="wrap">
@@ -218,10 +391,16 @@
           <h2>Comment ça se passe, un exemple</h2>
           <p>Le récit ci-dessous illustre le parcours. Il ne s'agit pas d'un vrai client.</p>
         </div>
+        <div class="example-grid">
         <div class="example-story">
           <div class="example-label">Un exemple, pas un vrai couple</div>
           <p>Un couple de Liège s'intéresse à une maison à Casares, ou peut-être à Sotogrande. Ils remplissent le formulaire : budget, délai et le secteur qu'ils ont en tête.</p>
           <p>Westersol leur répond en français, vérifie ces points, et demande s'ils acceptent d'être présentés à une agence locale. S'ils disent oui, la présentation part par écrit. Ensuite, c'est l'agence qui organise les visites et mène la négociation.</p>
+        </div>
+          <figure class="side-photo">
+            <img src="../img/life/casares-village.webp" width="1200" height="800" alt="Le village blanc de Casares et la Sierra Crestellina" loading="lazy">
+            <figcaption>Casares</figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -240,7 +419,7 @@
       <div class="wrap costs">
         <div>
           <h2>À qui s'adresse ce service</h2>
-          <p>Aux acheteurs des Pays-Bas, de Belgique ou de France qui cherchent une résidence principale, une seconde maison ou un investissement calme entre San Pedro de Alcántara et Sotogrande, avec un budget à partir d'environ 300 000 € et un horizon de douze mois ou moins. Si vous êtes encore en phase d'exploration, vous pouvez aussi remplir le formulaire ; ces demandes sont traitées comme une information, pas comme une introduction immédiate.</p>
+          <p>Aux acheteurs de Belgique ou de France qui cherchent une résidence principale, une seconde maison ou un investissement calme entre San Pedro de Alcántara et Sotogrande, avec un budget à partir d'environ 300 000 € et un horizon de douze mois ou moins. Si vous êtes encore en phase d'exploration, vous pouvez aussi remplir le formulaire ; ces demandes sont traitées comme une information, pas comme une introduction immédiate.</p>
         </div>
         <div class="note">
           Westersol ne facture pas d'honoraires d'agence à l'acheteur. Si un achat aboutit via notre partenaire, l'agence nous verse une part de sa propre commission. Cela est convenu par écrit avec l'agence au préalable. Nous ne donnons pas de conseil en crédit ; pour cela, nous orientons vers un intermédiaire agréé.
@@ -248,12 +427,18 @@
       </div>
     </section>
 
+    <figure class="scene-break">
+      <img src="../img/life/sotogrande-gibraltar.webp" width="1200" height="676" alt="Le rocher de Gibraltar vu depuis la plage de Sotogrande" loading="lazy">
+      <figcaption>Sotogrande</figcaption>
+    </figure>
+
     <section class="intake" id="admission">
       <div class="wrap">
         <div class="section-head">
           <h2>Dites-nous ce que vous cherchez</h2>
           <p>Un court formulaire. Nous vous répondons en français. Nous n'utilisons vos données que pour traiter votre demande et, seulement avec votre accord ultérieur, les transmettre à une agence partenaire.</p>
         </div>
+        <div class="intake-layout">
         <div class="form-panel">
           <form id="intake-form" action="https://formsubmit.co/contact@westersol.com" method="post"
             data-need-consent="Veuillez cocher la case de consentement pour continuer."
@@ -463,6 +648,11 @@
             </div>
           </form>
         </div>
+          <figure class="side-photo">
+            <img src="../img/life/sabinillas-beach.webp" width="1200" height="900" alt="La plage de San Luis de Sabinillas, avec le village au loin" loading="lazy">
+            <figcaption>Sabinillas</figcaption>
+          </figure>
+        </div>
       </div>
     </section>
   </main>
@@ -488,12 +678,30 @@
         <p>Crédits photographiques</p>
         <ul>
           <li>San Pedro de Alcántara : <a href="https://commons.wikimedia.org/wiki/File:Paseo_mar%C3%ADtimo_Playa_San_Pedro.jpg">Paseo marítimo Playa San Pedro</a> par Dcarolina.2000, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>San Pedro de Alcántara : <a href="https://commons.wikimedia.org/wiki/File:Playa_de_San_Pedro_Alc%C3%A1ntara_(15848276050).jpg">Playa de San Pedro Alcántara (15848276050)</a> par Jörg Weingrill, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</li>
           <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:Puerto_deportivo_Estepona_november.jpg">Puerto deportivo Estepona november</a> par Turista Inglesa, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:Paseo_Mar%C3%ADtimo,_Estepona_08.JPG">Paseo Marítimo, Estepona 08</a> par Tyk, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:Calle_San_Miguel_with_pink_flowers_-_Estepona_Garden_of_the_Costa_del_Sol.jpg">Calle San Miguel with pink flowers - Estepona Garden of the Costa del Sol</a> par Turista Inglesa, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:La_Rada_Beach.jpg">La Rada Beach</a> par Vanbasten 23, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:154629_Sierra_Bermeja.jpg">154629 Sierra Bermeja</a> par 80kmh, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:Natural_Park_Los_Reales_de_Sierra_Bermeja.jpg">Natural Park Los Reales de Sierra Bermeja</a> par kallerna, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Estepona : <a href="https://commons.wikimedia.org/wiki/File:Mercado_de_Abastos.jpg">Mercado de Abastos</a> par Luzzyacentillo, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</li>
           <li>Casares : <a href="https://commons.wikimedia.org/wiki/File:Casares_spain.jpg">Casares spain</a> par NashvilleScholar, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Casares : <a href="https://commons.wikimedia.org/wiki/File:Casares_y_Sierra_Crestellina,_provincia_de_M%C3%A1laga.jpg">Casares y Sierra Crestellina, provincia de Málaga</a> par ZC.Marbella, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Casares : <a href="https://commons.wikimedia.org/wiki/File:Calle_de_Casares.jpg">Calle de Casares</a> par julie3jax, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, via Wikimedia Commons.</li>
           <li>Manilva : <a href="https://commons.wikimedia.org/wiki/File:Morning_light_Manilva.jpg">Morning light Manilva</a> par Andy R, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</li>
+          <li>Manilva : <a href="https://commons.wikimedia.org/wiki/File:Playa_de_las_Arenas,_Manilva.jpg">Playa de las Arenas, Manilva</a> par Tyk, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</li>
           <li>Sabinillas : <a href="https://commons.wikimedia.org/wiki/File:San_Luis_de_Sabinillas._Mayo_2025.jpg">San Luis de Sabinillas. Mayo 2025</a> par Plazadelcamino, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Sabinillas : <a href="https://commons.wikimedia.org/wiki/File:Paseo_mar%C3%ADtimo_de_Sabinillas.jpg">Paseo marítimo de Sabinillas</a> par __Lolo__, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, via Wikimedia Commons.</li>
+          <li>Sabinillas : <a href="https://commons.wikimedia.org/wiki/File:Playa_de_Sabinillas.jpg">Playa de Sabinillas</a> par __Lolo__, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, via Wikimedia Commons.</li>
           <li>La Duquesa : <a href="https://commons.wikimedia.org/wiki/File:Puerto-de-la-duquesa.jpg">Puerto-de-la-duquesa</a> par Andalusien Aktuell, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, via Wikimedia Commons.</li>
+          <li>La Duquesa : <a href="https://commons.wikimedia.org/wiki/File:Puerto-deportivo-de-la-duquesa.jpg">Puerto-deportivo-de-la-duquesa</a> par Andalusien Aktuell, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>La Duquesa : <a href="https://commons.wikimedia.org/wiki/File:Castillo_de_la_Duquesa_01.jpg">Castillo de la Duquesa 01</a> par CarlosVdeHabsburgo, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
           <li>Sotogrande : <a href="https://commons.wikimedia.org/wiki/File:Sotogrande.jpg">Sotogrande</a> par Dgd education, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, via Wikimedia Commons.</li>
+          <li>Sotogrande : <a href="https://commons.wikimedia.org/wiki/File:Port_of_Sotogrande_(5793604574).jpg">Port of Sotogrande (5793604574)</a> par Sergio Rus, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</li>
+          <li>Sotogrande : <a href="https://commons.wikimedia.org/wiki/File:Gibraltar_from_Sotogrande_beach_-_Flickr_-_gailhampshire.jpg">Gibraltar from Sotogrande beach - Flickr - gailhampshire</a> par gailhampshire, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</li>
+          <li>Sotogrande : <a href="https://commons.wikimedia.org/wiki/File:Real_Club_Valderrama_-_2008_(2).jpg">Real Club Valderrama - 2008 (2)</a> par Pablo Herrero, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, via Wikimedia Commons.</li>
+          <li>Carte : une carte illustrée originale de la Costa del Sol occidentale.</li>
         </ul>
       </div>
       <p class="legal">Aucune photo de personnes. Westersol est une marque, pas un nom de personne. © 2026 Westersol.</p>

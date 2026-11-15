@@ -1,4 +1,34 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#0f3d3a"/>
-  <text x="32" y="46" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#f6f1e8">W</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Westersol">
+  <title>Westersol</title>
+  <defs>
+    <radialGradient id="sunGrad" cx="38%" cy="34%" r="72%" fx="68%" fy="74%">
+      <stop offset="0%" stop-color="#f8e28a"/>
+      <stop offset="32%" stop-color="#f6d66b"/>
+      <stop offset="78%" stop-color="#f5c055"/>
+      <stop offset="100%" stop-color="#f5b74a"/>
+    </radialGradient>
+    <filter id="watercolor" x="-35%" y="-35%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06 0.07" numOctaves="4" seed="11" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3.2" xChannelSelector="R" yChannelSelector="G" result="disp"/>
+      <feGaussianBlur in="disp" stdDeviation="0.4" result="soft"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="3" result="grain"/>
+      <feColorMatrix in="grain" type="matrix"
+        values="0 0 0 0 0.92  0 0 0 0 0.72  0 0 0 0 0.28  0 0 0 0.18 0" result="grainTint"/>
+      <feComposite in="grainTint" in2="soft" operator="in" result="grainClip"/>
+      <feBlend in="soft" in2="grainClip" mode="multiply"/>
+    </filter>
+    <filter id="wash" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05 0.06" numOctaves="3" seed="19" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="4.5" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="0.8"/>
+    </filter>
+  </defs>
+  <rect width="64" height="64" fill="#ffffff"/>
+  <circle cx="32" cy="30.5" r="22.14" fill="#f6d66b" fill-opacity="0.35" filter="url(#wash)"/>
+  <circle cx="32" cy="30.5" r="20.5" fill="url(#sunGrad)" filter="url(#watercolor)"/>
+  <circle cx="37.74" cy="37.06" r="8.61"
+          fill="#f5b74a" fill-opacity="0.28" filter="url(#wash)"/>
+  <path d="M 6.99 41.04 C 12.99 38.14, 16.99 42.64, 23.00 40.54 C 29.00 38.24, 34.00 42.74, 40.00 40.39 C 46.01 38.04, 51.01 42.14, 57.01 40.09" fill="none" stroke="#4fbfa8" stroke-width="1.7"
+        stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
