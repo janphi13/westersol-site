@@ -4,11 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Westersol</title>
-  <meta name="description" content="A guide for buyers looking for a home between San Pedro de Alcántara and Sotogrande. Choose Dutch, French or English.">
+  <meta name="description" content="Westersol introduces buyers to trusted local agents between San Pedro de Alcántara and Sotogrande. Choose Dutch, French, English, German, Swedish or Spanish.">
   <link rel="canonical" href="https://westersol.com/">
   <link rel="alternate" hreflang="nl" href="https://westersol.com/nl/">
   <link rel="alternate" hreflang="fr" href="https://westersol.com/fr/">
   <link rel="alternate" hreflang="en" href="https://westersol.com/en/">
+  <link rel="alternate" hreflang="de" href="https://westersol.com/de/">
+  <link rel="alternate" hreflang="sv" href="https://westersol.com/sv/">
+  <link rel="alternate" hreflang="es" href="https://westersol.com/es/">
   <link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/">
   <link rel="icon" href="img/logo/icon.svg" type="image/svg+xml">
   <link rel="icon" href="img/logo/icon-192.png" sizes="192x192" type="image/png">
@@ -17,7 +20,7 @@
     (function () {
       var lang = (navigator.language || navigator.userLanguage || "nl").toLowerCase();
       var code = lang.slice(0, 2);
-      if (code !== "nl" && code !== "fr" && code !== "en") {
+      if (["nl","fr","en","de","sv","es"].indexOf(code) === -1) {
         code = "nl";
       }
       window.location.replace("/" + code + "/");
@@ -26,7 +29,7 @@
 </head>
 <body>
   <noscript>
-    <p><a href="/choose.html">Choose your language / Kies uw taal / Choisissez votre langue</a></p>
+    <p><a href="/choose.html">Choose your language / Kies uw taal / Choisissez votre langue / Sprache wählen / Välj språk / Elija su idioma</a></p>
   </noscript>
 </body>
 </html>
