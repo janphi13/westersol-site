@@ -1,0 +1,40 @@
+name: Decode buying-guide PDFs
+on:
+  push:
+    paths:
+      - "**/*.pdf.b64"
+      - ".github/workflows/decode-pdfs.yml"
+permissions:
+  contents: write
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Decode PDF payloads, commit the binaries, and remove the helper files
+        run: |
+          set -euo pipefail
+          found=0
+          while IFS= read -r f; do
+            [ -n "$f" ] || continue
+            out="${f%.b64}"
+            base64 -d "$f" > "$out"
+            # sanity: PDF magic
+            head -c 5 "$out" | grep -q "%PDF" || { echo "not a PDF: $out"; exit 1; }
+            git rm -f "$f"
+            git add "$out"
+            found=1
+          done < <(git ls-files '*.pdf.b64')
+          if [ "$found" = 0 ]; then
+            echo "No .pdf.b64 files to decode"
+            exit 0
+          fi
+          if [ -f .github/workflows/decode-pdfs.yml ]; then
+            git rm -f .github/workflows/decode-pdfs.yml
+          fi
+          git config user.name "Westersol"
+          git config user.email "contact@westersol.com"
+          git commit -m "Add printable buying-guide PDFs in all six languages"
+          git push
