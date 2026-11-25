@@ -5,6 +5,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
   </url>
   <url>
@@ -12,6 +15,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
   </url>
   <url>
@@ -19,6 +25,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/"/>
   </url>
   <url>
@@ -26,6 +65,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
   </url>
   <url>
@@ -33,6 +75,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
   </url>
   <url>
@@ -40,6 +85,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/kaufratgeber/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/kopguide/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/guia-compra/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/aankoopgids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guide-achat/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/buying-guide/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/kaufratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/kopguide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guia-compra/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/aankoopgids/"/>
   </url>
   <url>
@@ -47,6 +125,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
   </url>
   <url>
@@ -54,6 +135,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
   </url>
   <url>
@@ -61,6 +145,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/orte/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/guider/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/guias/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/"/>
   </url>
   <url>
@@ -68,6 +185,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
   </url>
   <url>
@@ -75,6 +195,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
   </url>
   <url>
@@ -82,6 +205,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/orte/sotogrande/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/guider/sotogrande/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/guias/sotogrande/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/sotogrande/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/sotogrande/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/sotogrande/"/>
   </url>
   <url>
@@ -89,6 +245,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
   </url>
   <url>
@@ -96,6 +255,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
   </url>
   <url>
@@ -103,6 +265,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/orte/san-pedro-de-alcantara/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/guider/san-pedro-de-alcantara/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/guias/san-pedro-de-alcantara/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/san-pedro-de-alcantara/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/san-pedro-de-alcantara/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/san-pedro-de-alcantara/"/>
   </url>
   <url>
@@ -110,6 +305,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
   </url>
   <url>
@@ -117,6 +315,9 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
   </url>
   <url>
@@ -124,6 +325,39 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/orte/estepona/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/guider/estepona/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/guias/estepona/</loc>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://westersol.com/nl/gids/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://westersol.com/fr/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://westersol.com/en/guides/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://westersol.com/de/orte/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://westersol.com/sv/guider/estepona/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://westersol.com/es/guias/estepona/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://westersol.com/nl/gids/estepona/"/>
   </url>
   <url>
@@ -134,5 +368,14 @@
   </url>
   <url>
     <loc>https://westersol.com/en/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://westersol.com/de/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://westersol.com/sv/privacy.html</loc>
+  </url>
+  <url>
+    <loc>https://westersol.com/es/privacy.html</loc>
   </url>
 </urlset>
